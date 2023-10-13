@@ -127,10 +127,12 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+ /* larghezza container */
 .container {
     width: 100%;
     max-width: 1140px;
 }
+/* da 0 a 480px */
 @media screen and (max-width: 480px){
     .row{
         flex-wrap: wrap;
